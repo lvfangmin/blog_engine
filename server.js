@@ -6,5 +6,5 @@ var Stack = require('stack'),
 Http.createServer(Stack(
   Creationix.log(),
   // NOTE: Need to change to the blog.git dir
-  require('wheat')(__dirname +"/../blog.git")
+  require('wheat')(__dirname +"/../blog")
 )).listen(80);

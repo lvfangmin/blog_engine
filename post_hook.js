@@ -1,7 +1,7 @@
 var http = require('http');
 
 http.createServer(function (req, res) {
-    console.log( 'Post-receive form Github');
+    console.log('Post-receive form Github');
 
     // Execute a git fetch on the bare repo.
     // NOTE: Need to change to the blog.git directory
